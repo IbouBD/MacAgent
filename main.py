@@ -1,6 +1,7 @@
 from env import*
 from agent import*
 from rl import *
+from train_input import*
 
 env = Env("macos")
 brain = Brain()
@@ -8,12 +9,19 @@ agent = Agent(brain)
 current_env = env.getOS()
 instructor = Instructor(brain, agent.history, current_env)
 replay_buffer = ReplayBuffer(10000)
+unsafe_block = UnsafeBlock()
+num_episodes = 5000
 
-def main():
+def main(user_inpt):
     state = env.getState()
-    msg = "Give me the meteo in Paris using Safari"
+    msg = user_inpt
 
     key_sequence = agent.generate_sequence(msg, state, current_env)
+    unsafe_action = unsafe_block.check(key_sequence)
+    if unsafe_action:
+        print("Unsafe action detected")
+        state = env.getState() + " " + f"Unsafe action detected : {unsafe_block.banned_actions}, make sure to avoid them."
+        key_sequence = agent.generate_sequence(msg, state, current_env)
     sk = agent.extract_action(key_sequence)
     print(sk)
     for i in range(agent.queue.size()):
@@ -69,4 +77,6 @@ def main():
         replay_buffer.store_transition(obs)
 
 if __name__ == "__main__":
-    main()
+    for i in range(len(user_inpt)):
+        main(user_inpt[i])
+    print("Training is done")

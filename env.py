@@ -15,6 +15,8 @@ from agent import*
 import tempfile
 from Quartz import CGWindowListCopyWindowInfo, kCGWindowListOptionOnScreenOnly, kCGNullWindowID
 from difflib import SequenceMatcher
+import logging
+from typing import List
 
 
 
@@ -250,3 +252,51 @@ class Instructor(object):
     
     def evaluate_and_train(self):
         pass
+
+
+class UnsafeBlock:
+    def __init__(self, banned_actions: List[List[str]] = None):
+        self.banned_actions = banned_actions or [
+            ["sudo", "rm", "-rf", "/"],
+            ["sudo", "shutdown", "-h", "now"],
+            ["sudo", "reboot"],
+            ["sudo", "poweroff"],
+            ["sudo", "halt"]
+        ]
+        self.blocked_actions = []
+        logging.basicConfig(filename='unsafe_actions.log', level=logging.INFO)
+
+    def check_action(self, action: List[str]) -> bool:
+        """
+        Vérifie si l'action est autorisée ou non.
+        """
+        if any(all(part in action for part in banned) for banned in self.banned_actions):
+            self.blocked_actions.append(action)
+            logging.info(f"Blocked action: {action}")
+            return False
+        return True
+
+    def rollback_safety(self, action: List[str]):
+        """
+        Implémentez ici la logique de rollback, par exemple,
+        en restaurant un snapshot de la VM.
+        """
+        if self.is_unsafe_action_performed(action):
+            print("Rolling back to previous state...")
+        else:
+            pass
+
+    def notify_admin(self, action: List[str]):
+        """
+        Notifie l'administrateur de l'action bloquée.
+        """
+        logging.warning(f"Admin alert: Action blocked - {action}")
+
+    def is_unsafe_action_performed(self, action: List[str]) -> bool:
+        """
+        Vérifie si l'action dangereuse a été effectué.
+        """
+        if action in self.blocked_actions:
+            return True
+        else:
+            return False

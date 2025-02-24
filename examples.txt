@@ -1,0 +1,446 @@
+Ouvrir Safari et accéder à un site web spécifique.
+
+Ajouter un signet dans Safari pour un accès rapide.
+
+Créer un événement dans Calendrier et définir un rappel.
+
+Ajouter un contact dans l'application Contacts.
+
+Envoyer un email avec une pièce jointe via Mail.
+
+Rechercher un mot spécifique dans un document avec Aperçu.
+
+Utiliser Spotlight pour rechercher un fichier ou une application.
+
+Créer une liste de tâches dans Rappels.
+
+Modifier un document avec Pages.
+
+Exporter un document Pages en PDF.
+
+Activer le mode lecture dans Safari pour une meilleure expérience de lecture.
+
+Partager un fichier avec l'application Messages.
+
+Ouvrir un document Word dans Pages et l’enregistrer en .docx.
+
+Lire un article avec Siri en activant la lecture vocale.
+
+Organiser ses emails en créant des dossiers dans Mail.
+
+Créer un dossier sur le bureau.
+
+Renommer un fichier dans le Finder.
+
+Copier un fichier d'un dossier à un autre.
+
+Supprimer définitivement un fichier avec Command + Option + Delete.
+
+Afficher les fichiers cachés avec Command + Shift + .
+
+Compresser un fichier en format ZIP.
+
+Déplacer un fichier vers iCloud Drive.
+
+Partager un fichier via AirDrop.
+
+Restaurer un fichier supprimé depuis la corbeille.
+
+Ajouter un tag de couleur à un fichier pour le classer.
+
+Créer un alias d'un fichier pour un accès rapide.
+
+Fusionner plusieurs fichiers PDF avec Aperçu.
+
+Convertir une image en un autre format en utilisant Aperçu.
+
+Déplacer un fichier vers un disque externe.
+
+Détecter les fichiers volumineux avec le gestionnaire de stockage.
+
+Utilisation des raccourcis clavier
+
+Fermer une fenêtre avec Command + W.
+
+Basculer entre les applications avec Command + Tab.
+
+Prendre une capture d'écran avec Command + Shift + 4.
+
+Coller sans mise en forme avec Command + Shift + V.
+
+Dupliquer un fichier avec Command + D.
+
+Sélectionner tout le texte dans un document avec Command + A.
+
+Ouvrir les préférences système avec Command + , (virgule).
+
+Afficher Mission Control avec F3.
+
+Lancer le mode plein écran avec Control + Command + F.
+
+Afficher le bureau avec Command + F3.
+
+Activer l'affichage rapide d'un fichier avec la barre d’espace.
+
+Verrouiller rapidement l’écran avec Control + Command + Q.
+
+Ouvrir une nouvelle fenêtre Finder avec Command + N.
+
+Annuler une action avec Command + Z.
+
+Répéter une action annulée avec Command + Shift + Z.
+
+Changer le fond d'écran du bureau.
+
+Activer le mode sombre.
+
+Modifier la taille du Dock.
+
+Ajouter ou supprimer des applications du Dock.
+
+Configurer un économiseur d’écran personnalisé.
+
+Modifier la vitesse de défilement de la souris.
+
+Déplacer la barre de menu vers un autre écran.
+
+Activer l’affichage des extensions de fichiers.
+
+Personnaliser les raccourcis clavier dans les Préférences Système.
+
+Changer la police et la taille du texte dans Finder.
+
+Ajouter des bureaux virtuels dans Mission Control.
+
+Régler le volume de démarrage du Mac.
+
+Modifier les animations du Dock.
+
+Activer les coins actifs pour des actions rapides.
+
+Personnaliser la Touch Bar sur un MacBook Pro.
+
+Utilisation du Terminal
+
+Vérifier l’espace disque disponible avec df -h.
+
+Lister les fichiers d’un dossier avec ls -l.
+
+Supprimer un fichier avec rm.
+
+Changer les permissions d’un fichier avec chmod.
+
+Éteindre le Mac avec sudo shutdown -h now.
+
+Vider la corbeille avec rm -rf ~/.Trash/*.
+
+Trouver un fichier avec find / -name "nom_du_fichier".
+
+Afficher l’adresse IP avec ifconfig.
+
+Activer le mode développeur de macOS avec sudo DevToolsSecurity --enable.
+
+Mettre à jour les applications via Homebrew avec brew upgrade.
+
+Afficher les processus en cours avec top.
+
+Arrêter une application bloquée avec kill -9 PID.
+
+Modifier un fichier de configuration avec nano nom_du_fichier.
+
+Lancer un serveur local avec python -m http.server.
+
+Tester la connectivité réseau avec ping google.com.
+Activer FileVault pour chiffrer le disque dur.
+
+Configurer un mot de passe pour l'écran de veille.
+
+Désactiver l’accès aux services de localisation pour certaines applications.
+
+Vérifier les autorisations d’application dans Préférences Système.
+
+Activer le pare-feu macOS.
+
+Utiliser Touch ID pour se connecter et effectuer des achats.
+
+Modifier les paramètres de confidentialité Safari pour bloquer le suivi des sites web.
+
+Activer l’authentification à deux facteurs pour l’Apple ID.
+
+Effacer l’historique de navigation dans Safari.
+
+Gérer les mots de passe avec le trousseau iCloud.
+
+Réseau et Internet
+
+Configurer une connexion VPN.
+
+Partager la connexion Internet avec un autre appareil.
+
+Vérifier les appareils connectés au réseau Wi-Fi.
+
+Changer les serveurs DNS pour une connexion plus rapide.
+
+Tester la vitesse de connexion Internet.
+
+Bloquer un site web avec le contrôle parental.
+
+Connecter un Mac à un autre en partage d’écran.
+
+Configurer un proxy réseau.
+
+Créer un point d’accès Wi-Fi avec un Mac.
+
+Afficher l’adresse MAC de l’ordinateur.
+
+Multimédia
+
+Éditer une vidéo avec iMovie.
+
+Convertir un fichier audio avec GarageBand.
+
+Modifier les métadonnées d’une chanson dans Musique.
+
+Ajuster l’égaliseur de son pour améliorer l’audio.
+
+Enregistrer une note vocale avec Dictaphone.
+
+Recadrer une image avec Aperçu.
+
+Créer un diaporama avec Photos.
+
+Synchroniser la bibliothèque musicale avec iCloud.
+
+Ajouter des sous-titres à une vidéo avec QuickTime.
+
+Diffuser l’écran de son Mac sur une Apple TV.
+
+Maintenance du système
+
+Réinitialiser la PRAM et la NVRAM.
+
+Vérifier l’état de la batterie du MacBook.
+
+Lancer un test matériel avec Apple Diagnostics.
+
+Désinstaller une application proprement en supprimant ses fichiers résiduels.
+
+Vider le cache système pour libérer de l’espace.
+
+Réduire l’utilisation de la mémoire vive en fermant les processus inutiles.
+
+Mettre à jour macOS via le Mac App Store.
+
+Réparer les permissions du disque avec Utilitaire de disque.
+
+Désactiver les animations système pour améliorer les performances.
+
+Configurer Time Machine pour des sauvegardes automatiques.
+
+Ouvrir Safari en mode navigation privée.
+Programmer un email à envoyer plus tard dans Mail.
+Utiliser l'option « Épingler » dans Notes pour garder une note en haut de la liste.
+Importer des photos depuis un iPhone dans l’application Photos.
+Ajouter un événement récurrent dans Calendrier.
+Scanner un document directement avec l’application Notes.
+Modifier les métadonnées d’une image dans Aperçu.
+Ouvrir plusieurs onglets dans Finder pour naviguer plus efficacement.
+Partager une vidéo YouTube directement depuis Safari vers Messages.
+Traduire un texte directement dans Safari sans extension.
+Gestion des fichiers
+Trier les fichiers dans Finder par date de dernière ouverture.
+Rechercher un fichier spécifique en utilisant Spotlight avec des mots-clés avancés.
+Utiliser le mode colonne dans Finder pour une meilleure organisation.
+Glisser-déposer des fichiers vers une autre application sans ouvrir Finder.
+Ajouter une note rapide à un fichier via la barre latérale du Finder.
+Créer un modèle de document dans un dossier pour duplication rapide.
+Afficher un aperçu rapide d'un fichier en appuyant sur la barre d’espace.
+Fusionner plusieurs PDF en un seul avec Aperçu.
+Copier un chemin de fichier exact dans Finder avec Option + Clic droit.
+Réorganiser les icônes sur le bureau pour une meilleure lisibilité.
+Utilisation des raccourcis clavier
+Command + Option + Esc pour forcer la fermeture d’une application bloquée.
+Control + Command + Space pour insérer un emoji rapidement.
+Command + Shift + T pour rouvrir le dernier onglet fermé dans Safari.
+Option + Shift + Volume pour régler finement le niveau du son.
+Command + Shift + G dans Finder pour ouvrir un dossier spécifique par chemin.
+Option + Clic sur le bouton vert d’une fenêtre pour passer en mode écran partagé.
+Command + D dans un champ de saisie pour dupliquer une ligne de texte.
+Control + Command + Q pour verrouiller immédiatement l’écran.
+Command + Shift + 5 pour ouvrir l’outil de capture d’écran avancé.
+Option + Clic sur le Wi-Fi dans la barre de menu pour voir des infos avancées sur le réseau.
+Personnalisation du système
+Modifier la couleur d’accentuation et de surbrillance dans les paramètres Système.
+Régler les coins actifs pour exécuter des actions rapides en plaçant le curseur.
+Configurer les gestes du trackpad pour une navigation plus fluide.
+Activer le mode sombre automatiquement en fonction de l’heure.
+Personnaliser la barre de menu en ajoutant des raccourcis essentiels.
+Modifier l’animation du Dock pour un effet plus rapide.
+Créer des profils d’affichage selon les environnements de travail.
+Organiser les icônes du Launchpad en dossiers thématiques.
+Personnaliser l’écran de veille avec des photos personnelles.
+Modifier la taille et le comportement du Dock selon ses préférences.
+Utilisation du Terminal
+Vérifier l’utilisation du disque avec du -sh.
+Déterminer l’uptime du Mac avec uptime.
+Modifier l’apparence du Terminal avec un thème personnalisé.
+Lancer un serveur local avec python3 -m http.server 8000.
+Automatiser des tâches avec des scripts Bash simples.
+Trouver tous les fichiers modifiés dans les dernières 24h avec find . -mtime -1.
+Vider le cache DNS avec sudo killall -HUP mDNSResponder.
+Désactiver le son de démarrage du Mac avec sudo nvram SystemAudioVolume=%80.
+Vérifier la température du processeur avec istats.
+Lister tous les périphériques connectés en USB avec system_profiler SPUSBDataType.
+Applications tierces
+Créer une playlist intelligente dans Spotify.
+Activer les raccourcis clavier personnalisés dans Visual Studio Code.
+Synchroniser Notion avec Google Calendar pour une meilleure gestion du temps.
+Utiliser la fonction de suppression de bruit dans Zoom.
+Automatiser des actions répétitives avec Automator et Hazel.
+Configurer des raccourcis Alfred pour accélérer la productivité.
+Activer le mode « Ne pas déranger » automatique dans Slack.
+Installer des apps non disponibles sur le Mac App Store avec Homebrew.
+Créer un modèle de document réutilisable dans Word ou Pages.
+Raccourcir un lien dans l’application Bitly pour le partager facilement.
+Maintenance du système
+Redémarrer en mode sans échec pour diagnostiquer un problème.
+Vérifier l’état de la batterie via les informations système.
+Utiliser CleanMyMac pour supprimer les fichiers inutiles.
+Identifier les processus gourmands en ressources avec Moniteur d’activité.
+Éteindre automatiquement le Mac après une période d’inactivité.
+Mettre à jour manuellement toutes les applications via le Mac App Store.
+Supprimer les fichiers de cache des applications inutiles.
+Défragmenter un disque externe pour améliorer ses performances.
+Tester la santé du disque dur avec Utilitaire de disque.
+Désactiver les applications inutiles qui se lancent au démarrage.
+Réseau et Internet
+Changer d’adresse IP en redémarrant le routeur.
+Activer le partage de connexion via un câble Ethernet.
+Diagnostiquer une connexion Wi-Fi instable avec l’analyseur réseau macOS.
+Restreindre la bande passante d’une application avec TripMode.
+Configurer un serveur DNS personnalisé pour accélérer la navigation.
+Activer un pare-feu avancé avec Little Snitch.
+Partager un fichier via un serveur WebDAV local.
+Établir une connexion SSH sécurisée vers un serveur distant.
+Utiliser AirDrop pour transférer un fichier entre appareils Apple.
+Tester la latence réseau avec ping google.com.
+Sécurité et confidentialité
+Définir un mot de passe sur un dossier compressé avec Terminal.
+Activer l’authentification à double facteur pour iCloud.
+Désactiver l’accès aux applications sensibles depuis les préférences système.
+Vérifier les logs de connexion avec last.
+Mettre en place une clé de récupération FileVault.
+Activer la suppression automatique des fichiers de téléchargement après X jours.
+Modifier les permissions d’un fichier sensible pour restreindre l’accès.
+Sécuriser un Mac volé avec l’option « Localiser mon Mac ».
+Définir une phrase de passe pour empêcher le redémarrage non autorisé.
+Activer le chiffrement des emails dans Apple Mail.
+Ajouter un rappel avec Siri pour une tâche à faire plus tard.
+Ouvrir une présentation Keynote en mode plein écran pour une meilleure visibilité.
+Annoter une image directement dans Mail avant de l’envoyer.
+Copier une table depuis Numbers vers Pages en conservant la mise en forme.
+Fusionner plusieurs contacts dupliqués dans l’application Contacts.
+Définir des règles automatiques dans Mail pour organiser les emails entrants.
+Ajouter un signet à un PDF dans Aperçu pour retrouver une page plus tard.
+Créer une liste de lecture dans Apple Music pour des écoutes organisées.
+Exporter une présentation Keynote en format PowerPoint.
+Synchroniser les rappels entre un iPhone et un Mac via iCloud.
+Gestion des fichiers
+Attribuer des tags de couleur aux fichiers pour un tri rapide dans Finder.
+Activer l'affichage des extensions de fichier dans Finder.
+Utiliser Time Machine pour restaurer une ancienne version d’un fichier.
+Créer un alias pour un dossier fréquemment utilisé sur le bureau.
+Déplacer automatiquement certains fichiers avec une règle Automator.
+Activer l'affichage des fichiers cachés avec Command + Shift + ..
+Redimensionner plusieurs images en une seule action avec Aperçu.
+Créer un disque virtuel chiffré avec Utilitaire de disque.
+Comparer deux fichiers texte avec l'application DiffMerge.
+Synchroniser un dossier spécifique avec iCloud Drive.
+Utilisation des raccourcis clavier
+Command + Option + V pour coller un fichier sans le dupliquer.
+Command + Shift + [ ou ] pour naviguer entre les onglets d’une application.
+Command + Option + H pour masquer toutes les applications sauf celle active.
+Command + Shift + P dans Safari pour ouvrir un nouvel onglet privé.
+Command + K dans Google Docs pour insérer rapidement un lien hypertexte.
+Command + Tab pour basculer entre les applications ouvertes.
+Command + Control + Space pour insérer un symbole ou un emoji.
+Option + Clic sur le bouton "Fermer" pour fermer toutes les fenêtres d’une application.
+Control + Command + T dans Finder pour ajouter un élément à la barre latérale.
+Shift + Option + Volume pour modifier le son par petits incréments.
+Personnalisation du système
+Activer le mode économie d’énergie pour prolonger l’autonomie de la batterie.
+Installer des polices personnalisées pour Pages et Keynote.
+Déplacer la barre de menu sur un second écran.
+Modifier les sons système par défaut dans les Préférences Système.
+Personnaliser l’économiseur d’écran avec une vidéo en boucle.
+Automatiser l’activation du mode Ne pas déranger selon l’heure.
+Modifier la disposition du clavier pour une langue spécifique.
+Ajouter une icône personnalisée à un dossier dans Finder.
+Désactiver les animations du Dock pour accélérer les performances.
+Définir des raccourcis gestuels pour le trackpad.
+Utilisation du Terminal
+Créer une alerte sonore avec say "Attention".
+Trouver un fichier spécifique avec find / -name "nom_du_fichier".
+Vérifier l’espace disque utilisé avec df -h.
+Modifier un fichier de configuration système avec nano.
+Activer le mode sombre avec une commande Terminal.
+Programmer l’arrêt automatique du Mac avec sudo shutdown -h +30.
+Lister toutes les connexions réseau actives avec netstat -an.
+Supprimer définitivement un fichier avec rm -P fichier.txt.
+Changer l’adresse MAC pour des raisons de confidentialité.
+Activer ou désactiver le mode veille avec pmset noidle.
+Applications tierces
+Utiliser Trello pour organiser des tâches et projets.
+Configurer un VPN avec TunnelBear ou NordVPN.
+Synchroniser un gestionnaire de mots de passe comme Bitwarden ou 1Password.
+Automatiser des tâches avec Zapier connecté à macOS.
+Créer des scripts personnalisés avec Keyboard Maestro.
+Gérer ses abonnements via l’application Bobby.
+Installer et utiliser Docker pour le développement.
+Configurer une machine virtuelle avec Parallels Desktop ou VirtualBox.
+Convertir des vidéos avec HandBrake.
+Installer une alternative au Finder comme ForkLift.
+Maintenance du système
+Supprimer les anciennes sauvegardes Time Machine pour libérer de l’espace.
+Nettoyer la RAM en fermant les applications inutiles.
+Activer le mode turbo boost avec Intel Power Gadget.
+Détecter les processus en arrière-plan qui ralentissent le système.
+Vérifier l’état de la batterie dans les Informations Système.
+Effectuer un diagnostic matériel avec Apple Diagnostics.
+Tester la vitesse du disque dur avec Blackmagic Disk Speed Test.
+Désactiver les mises à jour automatiques des applications.
+Régler la fréquence d’indexation de Spotlight pour économiser des ressources.
+Réinitialiser la PRAM et la SMC pour résoudre des bugs matériels.
+Réseau et Internet
+Configurer un partage de connexion via Wi-Fi ou Bluetooth.
+Se connecter automatiquement à un réseau Wi-Fi connu.
+Vérifier la consommation de données d’une application spécifique.
+Mettre en place une règle de pare-feu avancée.
+Définir une connexion VPN manuelle sans application tierce.
+Tester la qualité du Wi-Fi avec l’outil de diagnostic macOS.
+Bloquer l’accès à certains sites avec le fichier hosts.
+Activer un serveur FTP temporaire avec le Terminal.
+Utiliser iCloud Drive pour synchroniser des fichiers entre plusieurs Mac.
+Configurer un proxy pour naviguer en toute confidentialité.
+Sécurité et confidentialité
+Vérifier quels services ont accès aux données de localisation.
+Bloquer l’accès à la webcam pour certaines applications.
+Mettre en place un chiffrement des fichiers sensibles.
+Activer un mot de passe firmware pour sécuriser le démarrage.
+Vérifier si un appareil inconnu est connecté à son iCloud.
+Masquer son adresse IP avec iCloud Private Relay.
+Régler les permissions d’accès aux fichiers pour les applications tierces.
+Désactiver l’enregistrement automatique des mots de passe dans Safari.
+Éteindre automatiquement l’écran après une période d’inactivité.
+Effacer complètement un disque dur avant de vendre un Mac.
+Multimédia
+Convertir une vidéo en GIF avec un logiciel dédié.
+Extraire l’audio d’une vidéo sans perte de qualité.
+Monter une vidéo avec des effets avancés dans Final Cut Pro.
+Optimiser une image pour le web avec Affinity Photo.
+Créer une animation 3D avec Blender sur Mac.
+Composer de la musique avec GarageBand.
+Modifier les métadonnées d’un fichier audio avec MusicBrainz Picard.
+Diffuser l’écran du Mac sur une Apple TV sans fil.
+Changer le format d’une image directement dans Aperçu.
+Enregistrer un podcast avec un micro externe et Logic Pro.
