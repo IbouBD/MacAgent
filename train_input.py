@@ -6,4 +6,4 @@ with open("examples.txt", "r") as f:
       if line != "\n":
         user_inpt.append(line)
 
-print(user_inpt[1])
+print(user_inpt[1]) 
