@@ -9,7 +9,7 @@ vision = True
 env = Env("macos")
 
 current_info, vm_screenshot = env.reset()
-instruction = "Open spotify"
+instruction = "open safari"
 state = [{
     "instruction": instruction,
     "active_app": current_info['open_apps'],
