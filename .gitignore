@@ -6,3 +6,5 @@ vocab/
 Dataset/
 img_dataset/
 .DS_Store
+*.pth
+Models/
