@@ -1,9 +1,9 @@
-ok parfait je pense dans un premier temps que je vais entrainer le model a ouvrir parfaitement une application via RL. 
+- entrainer le model à ouvrir parfaitement une application via RL. 
 
-Puis dans un second temps je l'entrainerai a naviguer dans dans une interface apartir des données textuelles. 
+- entrainer le model à naviguer dans dans une interface apartir des données textuelles. 
 
-Ensuite dans un troisieme temps je l'entrainerai  avec une représentation latente d'un model de vision sans RL. 
+- entrainer le model avec une représentation latente d'un model de vision sans RL. 
 
-Pour finir le model sera entrainé avec la vision et le RL.
+- entrainer le model avec la vision et le RL.
 
 (Bonus) ajouter la souris
