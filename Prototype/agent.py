@@ -6,7 +6,7 @@ from pynput.keyboard import Key, Controller
 import time
 import re
 import ast
-from brain import*
+from prototype.brain import*
 
 keyboard = Controller()
 

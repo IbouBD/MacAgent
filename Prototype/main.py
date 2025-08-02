@@ -1,24 +1,24 @@
-from env import*
-from agent import*
-from rl import *
-from train_input import*
+from prototype.env import*
+from prototype.agent import*
+#from train_input import*
 
 env = Env("macos")
 brain = Brain()
 agent = Agent(brain)
 current_env = env.getOS()
 instructor = Instructor(brain, agent.history, current_env)
-replay_buffer = ReplayBuffer(10000)
 unsafe_block = UnsafeBlock()
 num_episodes = 5000
 
 def main(user_inpt):
+    agent.history = []
+    instructor.history = []
     state = env.getState()
     msg = user_inpt
 
     key_sequence = agent.generate_sequence(msg, state, current_env)
-    unsafe_action = unsafe_block.check(key_sequence)
-    if unsafe_action:
+    unsafe_action = unsafe_block.check_action(key_sequence)
+    if unsafe_action != True:
         print("Unsafe action detected")
         state = env.getState() + " " + f"Unsafe action detected : {unsafe_block.banned_actions}, make sure to avoid them."
         key_sequence = agent.generate_sequence(msg, state, current_env)
@@ -72,11 +72,12 @@ def main(user_inpt):
                 reward = instructor.reward(action, correction, goal_proximity, is_valide) # Punit pour sa mauvaise action
                 print("reward :", reward)
 
-        obs = (state, action, reward, next_state, is_valide, goal_proximity)        
+        obs = (state, action, reward, next_state, is_valide, goal_proximity)
+        print("history", agent.history)
+        print("instruction history", instructor.history)       
 
-        replay_buffer.store_transition(obs)
 
 if __name__ == "__main__":
-    for i in range(len(user_inpt)):
-        main(user_inpt[i])
+    
+    main("open Safari")
     print("Training is done")

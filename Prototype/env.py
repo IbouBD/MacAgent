@@ -7,11 +7,11 @@ import numpy as np
 from AppKit import NSWorkspace
 from PIL import ImageGrab, Image, ImageFilter
 import pytesseract
-from brain import*
+from prototype.brain import*
 import json
 from json.decoder import JSONDecodeError
 import re
-from agent import*
+from prototype.agent import*
 import tempfile
 from Quartz import CGWindowListCopyWindowInfo, kCGWindowListOptionOnScreenOnly, kCGNullWindowID
 from difflib import SequenceMatcher
@@ -110,7 +110,7 @@ class Env(object):
                 "x": w["kCGWindowBounds"]["X"],
                 "y": w["kCGWindowBounds"]["Y"],
                 "width": w["kCGWindowBounds"]["Width"],
-                "height": w["kCGWindowBounds"]["Height"]
+                "height": w["kCGWindowBounds"]["Height"],
             }
             for w in window_list
         ]

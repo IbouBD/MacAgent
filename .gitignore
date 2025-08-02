@@ -1,0 +1,8 @@
+# Ignore virtual environment directory
+venv/
+__pycache__/
+test/
+vocab/
+Dataset/
+img_dataset/
+.DS_Store
